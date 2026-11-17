@@ -1,0 +1,41 @@
+{
+  "studio": "Nexleaf",
+  "tagline": "Independent Game Development Studio",
+  "email": "NexleafStudios@gmail.com",
+  "base_url": "https://xeneonrag.github.io/nexleaf-website/",
+  "announcement": "",
+  "nav": [
+    { "label": "Games", "href": "#games", "home_anchor": true },
+    { "label": "Support", "slug": "support" },
+    { "label": "Privacy", "slug": "privacy-policy" },
+    { "label": "Terms", "slug": "terms-of-service" }
+  ],
+  "footer_legal": [
+    { "label": "Privacy Policy", "slug": "privacy-policy", "blurb": "What Dicebound collects, why, who processes it and your choices." },
+    { "label": "Terms of Service", "slug": "terms-of-service", "blurb": "The rules for playing Dicebound and using Nexleaf services." },
+    { "label": "Account Deletion", "slug": "account-deletion", "blurb": "How to delete your Dicebound account and its data, in the game or by email." },
+    { "label": "Community Guidelines", "slug": "community-guidelines", "blurb": "What we expect from players in co-op and the friends system." },
+    { "label": "Virtual Items & Refunds", "slug": "virtual-items", "blurb": "How Gold, Gems and other in-game items work, and where refunds stand." }
+  ],
+  "games": [
+    {
+      "name": "Dicebound",
+      "genre": "Dice Tower Defense",
+      "status": "In Development",
+      "platforms": "Planned for Android and iOS",
+      "description": "Build a deck of dice, place them on your board and merge matching dice to power them up while waves of monsters march down the path. Every merge is a gamble: the new dice is stronger, but which dice you get is up to chance.",
+      "features": [
+        "Collect and upgrade dozens of dice, each with its own ability",
+        "Play solo or team up with a friend in online co-op",
+        "Shape each run with cards, bosses and a mastery tree",
+        "Daily quests and monthly events with their own rewards"
+      ],
+      "icon": "assets/img/dicebound-icon.png",
+      "art": "assets/img/dicebound-title.jpg",
+      "art_alt": "Dicebound title screen: mossy stone dice beside a forest path",
+      "screenshots": [],
+      "google_play_url": "",
+      "app_store_url": ""
+    }
+  ]
+}

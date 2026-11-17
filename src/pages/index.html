@@ -1,0 +1,53 @@
+<!--
+title: Nexleaf | Independent Game Development Studio
+description: Nexleaf is an independent game development studio, currently building Dicebound, a dice tower defense game for Android and iOS.
+layout: home
+status: published
+-->
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Game studio</p>
+    <h1>{{studio}}</h1>
+    <p class="tagline">{{tagline}}</p>
+    <p class="intro">We make games that are quick to pick up and worth coming back to. Our first title, Dicebound, is in development now.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#games">See Dicebound</a>
+      <a class="btn btn-ghost" href="{{root}}support/">Player support</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="games">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Our games</p>
+      <h2>Now in development</h2>
+    </div>
+    {{games}}
+  </div>
+</section>
+
+<section class="section section-alt" id="policies">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Policies</p>
+      <h2>Clear rules, plainly written</h2>
+      <p>Everything about how Dicebound handles your data and what we ask of players. No sign-in needed to read any of it.</p>
+    </div>
+    <div class="cards">
+      {{legal_cards}}
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>Questions, feedback or a problem?</h2>
+    <p>Email us and a person will read it. For help with the game, the support page covers the common questions first.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:{{email}}">{{email}}</a>
+      <a class="btn btn-ghost" href="{{root}}support/">Support page</a>
+    </div>
+  </div>
+</section>

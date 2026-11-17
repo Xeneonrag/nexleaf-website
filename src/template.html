@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+{{robots}}
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{canonical}}">
+<meta name="theme-color" content="#0a1220">
+<link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png">
+<link rel="stylesheet" href="{{root}}assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="{{root}}" aria-label="{{studio}} home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs><path fill="url(#lg)" d="M27 4C14 4 6 11 6 20c0 2 .5 3.700 1.300 5.200L4 28.500 5.500 30l3.300-3.300C10.300 27.500 12 28 14 28c9 0 13-9 13-24z"/><path fill="none" stroke="#0a1220" stroke-width="1.600" stroke-linecap="round" d="M9.500 24.500C13 19 17.500 14.500 23 10.500"/></svg>
+      <span>{{studio}}</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      {{nav}}
+      <a class="nav-cta" href="mailto:{{email}}">Contact</a>
+    </nav>
+  </div>
+</header>
+{{banner}}
+<main id="main">
+{{content}}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">{{studio}}</p>
+      <p class="muted">{{tagline}}</p>
+      <p><a href="mailto:{{email}}">{{email}}</a></p>
+    </div>
+    <nav class="footer-links" aria-label="Legal">
+      <p class="footer-title">Legal</p>
+      {{footer_legal}}
+    </nav>
+    <nav class="footer-links" aria-label="Help">
+      <p class="footer-title">Help</p>
+      <a href="{{root}}support/">Support</a>
+      <a href="mailto:{{email}}">Email us</a>
+    </nav>
+  </div>
+  <div class="wrap footer-base"><p class="muted">&copy; {{year}} {{studio}}. Dicebound is a trademark of {{studio}}. Google Play and the App Store are trademarks of their owners.</p></div>
+</footer>
+<script src="{{root}}assets/js/site.js" defer></script>
+</body>
+</html>
